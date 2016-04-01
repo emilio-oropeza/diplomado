@@ -174,7 +174,7 @@ footer .navbar{
 	#diplo_navbar{	
 		height: 60px;
 	}
-	.navbar-brand{
+	header .navbar-brand{
 		padding-top: 20px;
 	}
 	#li_ponentes{
