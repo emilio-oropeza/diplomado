@@ -5,7 +5,7 @@ $(document).ready(function(){
 		"control":true,
 	});
 
-	$("#que").waypoint(function(direction){
+	$("#portada").waypoint(function(direction){
 		if(direction == "down"){
 			$(".navbar-inverse .navbar-nav > li > a").removeClass("height_100");
 			$(".navbar-brand").removeClass("height_100");
@@ -19,5 +19,5 @@ $(document).ready(function(){
 				$("body").css({"padding-top":"100px"});
 			}
 		}
-	},{offset:'bottom-in-view'});
+	},{offset:'0%'});
 });

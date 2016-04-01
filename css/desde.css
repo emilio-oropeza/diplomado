@@ -104,7 +104,7 @@ section .container {
 	background-color: #f9f9f9;
 }
 	#btn_conteiner{
-		width: 170px;
+		width: 250px;
 		height: 45px;
 		margin: auto;
 	}
@@ -126,6 +126,9 @@ section .container {
 		color: #7b8895;
 		margin-top: 50px;
 		margin-bottom: 65px;
+	}
+	#contacto .img-responsive{
+		margin: auto;
 	}
 footer .navbar{
 	margin-bottom: 0px;
