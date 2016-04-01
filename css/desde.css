@@ -14,7 +14,7 @@ body{
 	.navbar-inverse{
 		background-color: #101920;
 	}
-	.navbar-brand{
+	header .navbar-brand{
 		padding-top: 40px;
 	}
 	.navbar-brand > img {
@@ -150,6 +150,7 @@ section .container {
 footer .navbar{
 	margin-bottom: 0px;
 	font-size: 15px;
+	border-radius: 0px;
 	
 }
 	footer .navbar-inverse .navbar-text{

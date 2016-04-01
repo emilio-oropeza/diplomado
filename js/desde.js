@@ -11,7 +11,7 @@ $(document).ready(function(){
 				"padding-top":"20px",
 				"padding-bottom": "20px"
 			}, 500);
-			$(".navbar-brand").animate({
+			$("header .navbar-brand").animate({
 				"padding-top":"20px"
 			}, 500);
 			$("#diplo_navbar").animate({
@@ -26,7 +26,7 @@ $(document).ready(function(){
 					"padding-top":"40px",
 					"padding-bottom": "40px"
 				}, 500);
-				$(".navbar-brand").animate({
+				$("header .navbar-brand").animate({
 					"padding-top":"40px"
 				}, 500);
 				$("#diplo_navbar").animate({
@@ -44,7 +44,7 @@ $(document).ready(function(){
 				"padding-top":"20px",
 				"padding-bottom": "20px"
 			});
-			$(".navbar-brand").css({
+			$("header .navbar-brand").css({
 				"padding-top":"20px"
 			});
 			$("#diplo_navbar").css({
@@ -58,7 +58,7 @@ $(document).ready(function(){
 				"padding-top":"40px",
 				"padding-bottom": "40px"
 			});
-			$(".navbar-brand").css({
+			$("header .navbar-brand").css({
 				"padding-top":"40px"
 			});
 			$("#diplo_navbar").css({
