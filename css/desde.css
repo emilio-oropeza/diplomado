@@ -4,26 +4,31 @@ body{
 	letter-spacing: 0.06em;
 	font-family: 'Montserrat', sans-serif;
 }
+.height_50{
+	padding-top: 40px !important;
+	padding-bottom: 40px !important
+}
 #diplo_navbar{	
 	height: 100px;
 }
 	.navbar-inverse{
 		background-color: #101920;
 	}
+	.navbar-brand{
+		padding-top: 40px;
+	}
 	.navbar-brand > img {
-	    width: 95px;
+	    width: 95px;	    
 	}
 	.navbar-inverse .navbar-nav > li > a {
 		color: #ffffff;
 		font-weight: 400;
 		font-size: 15px;
-	}
-	.height_100{
-		padding-top: 40px !important;
-		padding-bottom: 40px !important;
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 section .container {
-    padding-top: 100px;
+    padding-top: 90px;
     padding-bottom: 90px;
 }
 .desde_titles{
@@ -31,6 +36,14 @@ section .container {
 	font-size: 22px;
 	margin-bottom: 50px;
 	color: #565f63;
+}
+#title{
+	background-color: #fba447;
+	color: #f9f9f9;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 27.5px;
+	padding: 30px 20px 25px;
 }
 #que, #que div{
 	background-color: #f9f9f9;
@@ -57,16 +70,19 @@ section .container {
 #coordinadores, #coordinadores div{
 	background-color: #f9f9f9;
 }
-#ponentes .container{
-	padding-top: 0px;
+#ponentes .container,
+#actividades .container{
 	padding-bottom: 0px;
 }
 	#actividades .desde_que_element p {
 		color: #7b8895;
 		font-size: 15px;
 	}
-	#logo_SS{
-		border-right: 1px solid #dfe0e1;
+	#logoSS{
+		border-right: 0.5px solid #dfe0e1;
+	}
+	#logoPART{
+		border-left: 0.5px solid #dfe0e1;
 	}
 	.desde_media{
 		margin-top: 25px;
@@ -76,16 +92,17 @@ section .container {
 	}
 	.desde_media_body {
 	    font-size: 15px;
-	    color: #565f63;
+	    color: #7b8895;
 	}
 	.desde_media_title {
 	    font-size: 18px;	    
+	    color: #565f63;
 	}
 #detalles, #detalles div{
 	background-color: #fba447;
 }
 	#detalles .container{
-		padding-bottom: 40px;
+		padding-bottom: 90px;
 	}
 	#detalles h3{
 		font-size: 22px;
@@ -127,7 +144,7 @@ section .container {
 		margin-top: 50px;
 		margin-bottom: 65px;
 	}
-	#contacto .img-responsive{
+	.img-responsive{
 		margin: auto;
 	}
 footer .navbar{
@@ -156,9 +173,8 @@ footer .navbar{
 	#diplo_navbar{	
 		height: 60px;
 	}
-	.height_100{
-		padding-top: 15px !important;
-		padding-bottom: 15px !important;
+	.navbar-brand{
+		padding-top: 20px;
 	}
 	#li_ponentes{
 		display: block;
