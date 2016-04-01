@@ -1,0 +1,182 @@
+body{
+	padding-top: 100px;
+	line-height: 25px;
+	letter-spacing: 0.06em;
+	font-family: 'Montserrat', sans-serif;
+}
+#diplo_navbar{	
+	height: 100px;
+}
+	.navbar-inverse{
+		background-color: #101920;
+	}
+	.navbar-brand > img {
+	    width: 95px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		color: #ffffff;
+		font-weight: 400;
+		font-size: 15px;
+	}
+	.height_100{
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+section .container {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.desde_titles{
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 50px;
+	color: #565f63;
+}
+#que, #que div{
+	background-color: #f9f9f9;
+}
+	.desde_que_element{
+		border-color: transparent;		
+	}
+	#que .desde_que_element p {
+		color: #7b8895;
+		font-size: 15px;
+	}
+#porque, #porque div{
+	background-color: #fba447;
+}
+	.circle_gif{
+		border-radius: 90px;
+	}
+	#porque .desde_que_element p {
+		color: #586064;
+		font-size: 18px;
+	}
+#actividades, #actividades div,
+#ponentes, #ponentes div,
+#coordinadores, #coordinadores div{
+	background-color: #f9f9f9;
+}
+#ponentes .container{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+	#actividades .desde_que_element p {
+		color: #7b8895;
+		font-size: 15px;
+	}
+	#logo_SS{
+		border-right: 1px solid #dfe0e1;
+	}
+	.desde_media{
+		margin-top: 25px;
+	}
+	.desde_media_content {
+	    padding-right: 30px;
+	}
+	.desde_media_body {
+	    font-size: 15px;
+	    color: #565f63;
+	}
+	.desde_media_title {
+	    font-size: 18px;	    
+	}
+#detalles, #detalles div{
+	background-color: #fba447;
+}
+	#detalles .container{
+		padding-bottom: 40px;
+	}
+	#detalles h3{
+		font-size: 22px;
+		font-weight: 700;
+		color: #565f63;
+	}
+	#detalles p{
+		font-size: 15px;
+		color: #565f63;
+	}
+	#detalles p span{
+		font-size: 15px;
+		color: #f9f9f9;
+	}
+#contacto, #contacto div{
+	background-color: #f9f9f9;
+}
+	#btn_conteiner{
+		width: 170px;
+		height: 45px;
+		margin: auto;
+	}
+	#contacto_btn{
+		background-image: url("../images/informes/Boton.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 45px;
+	}
+	#contacto_text{
+		font-size: 18px;
+		color: #7b8895;
+		margin-top: 50px;
+		margin-bottom: 65px;
+	}
+footer .navbar{
+	margin-bottom: 0px;
+	font-size: 15px;
+	
+}
+	footer .navbar-inverse .navbar-text{
+		color: #ffffff;
+	}
+@media(max-width: 1200px){
+	#li_ponentes{
+		display: none;
+	}
+}
+@media(max-width: 995px){
+	#li_actividades{
+		display: none;
+	}
+}
+/*movil*/
+@media(max-width: 767px){
+	body{
+		padding-top: 60px;
+	}
+	#diplo_navbar{	
+		height: 60px;
+	}
+	.height_100{
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+	}
+	#li_ponentes{
+		display: block;
+	}
+	#li_actividades{
+		display: block;
+	}
+	.desde_media{
+		margin-top: 15px;
+	}
+	.desde_media_content{
+		padding-right: 0px;
+		display: inline-block;
+		width: 100%;
+	}
+	.desde_media_img{
+		position: relative;
+		margin: auto;
+	}
+	.desde_media_body{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,900' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.waypoints.js"></script>
+		<style>
+			html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+				border: 0 none;
+				font-size: 100%;
+				margin: 0;
+				outline: 0 none;
+				padding: 0;
+				vertical-align: baseline;
+			}
+		</style>
+		<script type="text/javascript">
+			urlIndepth = "";
+		</script>
+		<script type="text/javascript">
+			if(typeof(sharePopUp) != "function"){
+				function sharePopUp(social, url) {
+					var height = 0;
+					var width = 0;
+					var sn = "";
+					if(social == "fb"){ 
+						height = 370;
+						width = 580;
+					}else if(social == "tw"){
+						height = 220;
+						width = 580;
+					}else if(social == "pin"){
+						height = 480;
+						width = 420;
+					}
+					//clickstats(, , , social);
+					/*if(shareWindow != undefined && shareWindow.closed == false){
+						shareWindow.close();
+					}*/
+					shareWindow = window.open(url, "shareUrl", "status=0,height="+height+",width="+width+",resizable=0,menubar=0");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/desde.css">
+		<header>
+			<nav id="diplo_navbar" class="navbar navbar-inverse navbar-fixed-top">
+	  			<div class="container">
+	  				<div class="navbar-header">
+			     		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+			      		</button>
+			      		<a class="navbar-brand height_100" href="#">
+					        <img alt="DESDE" src="images/Logo_DESDE.svg">
+					    </a>
+	    			</div>
+	    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    				<ul class="nav navbar-nav navbar-inverse">
+	    					<li><a id="li_que" class="height_100" href="#que">¿QUÉ ES?</a></li>
+	    					<li><a id="li_porque" class="height_100" href="#porque">¿POR QUÉ?</a></li>
+	    					<li><a id="li_actividades" class="height_100" href="#actividades">¿QUÉ PODRE HACER?</a></li>
+	    					<li><a id="li_ponentes" class="height_100" href="#ponentes">¿QUIÉN LO IMPARTE?</a></li>
+	    					<li><a id="li_coordinadores" class="height_100" href="#coordinadores">COORDINADORES</a></li>
+	    					<li><a id="li_detales" class="height_100" href="#detalles">DETALLES</a></li>
+	    				</ul>
+	    			</div>
+	  			</div>
+	  		</nav>
+  		</header>
+  		<section id="portada"><div id="desde_video"></div></section>
+  		<section id="que">
+  			<div class="container">
+	  			<p class="desde_titles text-center text-uppercase">¿Qué es?</p>
+	  			<div class="row">
+	  				<div class="col-sm-6 col-md-4 col-md-offset-1">
+	  					<div class="desde_que_element thumbnail">
+	  						<img src="images/que_es/q1.png">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Un diplomado que crea a los storytellers de nueva generación.
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4 col-md-offset-2">
+	  					<div class="desde_que_element thumbnail">
+	  						<img src="images/que_es/q2.png">
+	  						<div class="caption ">
+	  							<p class="text-center">
+	  								Un movimiento para modernizar la enseñanza y práctica del periodismo deportivo.
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+  			</div>
+  		</section>
+  		<section id="porque">
+  			<div class="container">
+	  			<p class="desde_titles text-center text-uppercase">¿Por qué es necesario?</p>
+	  			<div class="row">
+	  				<div class="col-sm-6 col-md-4">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/por_que/D3_bot.gif">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Los bots sustituyen al periodista de siempre
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/por_que/D2_laptop.gif">
+	  						<div class="caption ">
+	  							<p class="text-center">
+	  								El negocio de los medios ha cambiado
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/por_que/D5_monito.gif">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Los consumidores tienen nuevas exigencias
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  			<div class="row">
+	  				<div class="col-sm-6 col-md-4 col-md-offset-2">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/por_que/D1_paja.gif">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Estamos hartos de paja
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4 col-md-offset-0">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/por_que/D4_cerebro.gif">
+	  						<div class="caption ">
+	  							<p class="text-center">
+	  								Aprenderás
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+  			</div>
+  		</section>
+  		<section id="actividades">
+  			<div class="container">
+  				<p class="desde_titles text-center text-uppercase">¿QUÉ PODRÉ HACER DESPUÉS DE TOMARLO?</p>
+	  			<div class="row">
+	  				<div class="col-sm-6 col-md-3">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/que_podre_hacer/h1.png">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Generar historias únicas
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-3">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/que_podre_hacer/h2.png">
+	  						<div class="caption ">
+	  							<p class="text-center">
+	  								Entender las grandes tendencias actuales
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="clearfix visible-sm-block"></div>
+	  				<div class="col-sm-6 col-md-3">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/que_podre_hacer/h3.png">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Producir storytelling para todas las plataformas
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-3">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/que_podre_hacer/h4.png">
+	  						<div class="caption">
+	  							<p class="text-center">
+	  								Emprender
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+  		</section>
+  		<section id="ponentes">
+  			<div class="container">
+  				<p class="desde_titles text-center text-uppercase">¿QUIÉN LO IMPARTE?</p>
+	  			<div class="row">
+	  				<div class="col-sm-4 col-md-4 col-md-offset-2 col-sm-offset-2">
+	  					<div id="logo_SS" class="text-center desde_que_element">
+	  						<img src="images/quien_lo_imparte/Logo_SS.png">
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-4 col-md-4">
+	  					<div class="text-center desde_que_element">
+	  						<img src="images/quien_lo_imparte/Logo_PART.png">
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+  		</section>
+  		<section id="coordinadores">
+  			<div class="container">
+  				<p class="desde_titles text-center text-uppercase">COORDINADORES</p>
+	  			<div class="desde_media media">
+	  				<div class="desde_media_content media-left media-middle">
+	  					<img class="desde_media_img media-object" src="images/coordinadores/Maca.png" alt="Maca">
+	  				</div>
+	  				<div class="desde_media_body media-body">
+					    <h4 class="desde_media_title media-heading text-uppercase">Maca</h4>
+					    <p>
+					    	Director General y Cofundador juanfutbol.<br>
+							Director de Tiki Taka Studio.<br>
+							Ex Director Editorial de Yahoo! México y Medio Tiempo.<br>
+							Ha cubierto Copas del Mundo, Copas América y finales de Champions League.<br>
+							Colaborador CNN en Español.<br>
+							Licenciado en Comunicación por la Universidad de las Américas.<br>
+							Master Internacional en Negocios y Administración del futbol.<br> 
+					    </p>
+					</div>
+	  			</div>
+	  			<div class="desde_media media">
+	  				<div class="desde_media_content media-left media-middle">
+	  					<img class="desde_media_img media-object" src="images/coordinadores/Santi.png" alt="Santi Cordera">
+	  				</div>
+	  				<div class="desde_media_body media-body">
+					    <h4 class="desde_media_title media-heading text-uppercase">SANTI CORDERA</h4>
+					    <p>
+					    	Estudió Ciencias de la Comunicación y realizó una Maestría en Periodismo Deportivo en
+							Madrid, España, vinculada al Real Madrid y al periódico as.<br>
+							Ex Editor en uefa.com con sede en Madrid y en el área de deportes del diario digital
+							español elconfidencial.com.<br>
+							Colaboró con diferentes medios impresos y en línea, tales como Milenio.com, 
+							Mediotiempo.con, Yahoo! México, las revistas Este País y Nexos.<br>
+							Fundó junto con otros socios La Ciudad Deportiva, sitio independiente que logró 
+							adentrarse en el top 15 de Comscore.<br>
+							Actualmente es co-fundador de juanfutbol.com y Director Editorial del mismo.<br>
+					    </p>
+					</div>
+	  			</div>
+	  			<div class="desde_media media">
+	  				<div class="desde_media_content media-left media-middle">
+	  					<img class="desde_media_img media-object" src="images/coordinadores/Ivan.png" alt="Ivan Pérez">
+	  				</div>
+	  				<div class="desde_media_body media-body">
+					    <h4 class="desde_media_title media-heading text-uppercase">IVAN PÉREZ</h4>
+					    <p>
+					    	Editor de deportes del periódico El Economista, colaborador de Juan Futbol, Vice Sports 
+							y Forbes México.<br>
+							Fue fundador de los sitios Mxsports y Ajugar.com.<br>
+							Ganador del premio 50 años de la Copa Libertadores en la categoría de prensa escrita.<br> 
+							Licenciado en Ciencias de la Comunicación por la Universidad Nacional Autónoma de 
+							México, Licenciado en Periodismo por el PART, becario del Programa Prensa y 
+							Democracia (Prende).<br>
+					    </p>
+					</div>
+	  			</div>
+	  		</div>
+  		</section>
+  		<section id="detalles">
+  			<div class="container">
+	  			<div class="row">
+	  				<div class="col-sm-6 col-md-4">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/info/Info1.png">
+	  						<div class="caption">
+	  							<h3 class="text-center">¿CUÁNTO DURA?</h3>
+	  							<p class="text-center">
+	  								<span>7 meses</span>, poco más que un torneo corto y menos que las eliminatorias de Sudamérica. 
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/info/Info2.png">
+	  						<div class="caption">
+	  							<h3 class="text-center">¿CUÁNDO INICIA?</h3>
+	  							<p class="text-center">
+	  								El silbatazo se dará el <span>23 de abril</span> con un árbitro más polémico que Chiquimarco en partidos importantes. 
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">
+	  					<div class="desde_que_element thumbnail">
+	  						<img class="img-circle" src="images/info/Info3.png">
+	  						<div class="caption">
+	  							<h3 class="text-center">¿CUÁNTO CUESTA?</h3>
+	  							<p class="text-center">
+	  								Te prometemos que sale más barato que la llegada de Ronaldinho al Querétaro.
+	  							</p>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+  			</div>
+  		</section>
+  		<section id="contacto">
+  			<div class="container">
+  				<p class="desde_titles text-center text-uppercase">RECIBIR INFORMES</p>
+  				<div id="btn_conteiner">
+  					<a href="mailto:vocho@underdog.gs" role="button"><span id="contacto_btn">ENVIAR</span></a>
+  				</div>
+  				<p id="contacto_text" class="text-center">¡Listo! Súmate a la protesta contra los viejos medios</p>
+  				<img class="img-responsive" src="images/informes/Manifestantes.png">
+  			</div>
+  		</section>
+  		<footer>
+  			<nav class="navbar navbar-inverse">
+	  			<div class="container">
+	  				<a class="navbar-brand" href="#">
+				        <img alt="DESDE" src="images/Logo_DESDE.svg">
+				    </a>	    			
+	    			<p class="navbar-text navbar-right">Todos los derechos reservados</p>
+	  			</div>
+	  		</nav>
+  		</footer>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.videoCover.js"></script>
+		<script type="text/javascript" src="js/desde.js"></script>
+
+	</body>
+</html>
